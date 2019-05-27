@@ -6,9 +6,9 @@
 
   <div class="collapse navbar-collapse" id="header-navbar-collapse">
     <ul class="navbar-nav">
-      <form action="/search" method='get' class="navbar-form navbar-left">
+      <form action="/search" method='get' class="navbar-form navbar-left" autocomplete="off">
         <div class="input-group">
-          <input class="form-control bg-light" id="search-input" style="min-width: 230px;" type="text" name='q' placeholder="Search maps" minlength="3" value='<%= params[:id] if params[:action] == "search" %>'>
+          <input class="form-control bg-light" id="search-input" style="min-width: 230px;" type="text" name='q' placeholder="Search maps" value='<%= params[:q] if params[:action] == "search" %>'>
           <span class="input-group-append">
             <button class="btn btn-light" type="submit"><i class="fa fa-search"></i></button>
           </span>
@@ -34,3 +34,4 @@
     </ul>
   </div>
 </nav>
+
