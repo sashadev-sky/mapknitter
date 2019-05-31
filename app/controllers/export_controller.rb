@@ -12,7 +12,7 @@ class ExportController < ApplicationController
                   .count
   end
 
-  # override logger to suppress huge amounts of inane /export/progress logging
+  #override logger to suppress huge amounts of inane /export/progress logging
   def logger
     if params[:action] == 'progress'
       nil
