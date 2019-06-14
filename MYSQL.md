@@ -2,12 +2,11 @@
 
 ## Instructions
 
-
 ## MacOS
 
 ### Homebrew setup:
 
-(Note: alternative to Homebrew is [mySQL community server](https://dev.mysql.com/downloads/mysql/5.7.html#downloads) - available for all systems)
+(Note: alternative to Homebrew is [MySQL Community Server](https://dev.mysql.com/downloads/mysql/5.7.html#downloads) - available for all systems)
 
 **Dependencies:**
 
